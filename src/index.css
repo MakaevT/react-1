@@ -1,13 +1,94 @@
-body {
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header{
+  margin-bottom: 2%;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img{
+  margin-right: 25%;
+  width: 10%;
+}
+
+li{
+  list-style: none;
+  padding-right: 20px;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(0, 76, 176);
+}
+
+
+main .count{
+  padding-left: 45%;
+  font-size: 250px;
+  color:rgb(255, 123, 0);
+}
+
+.buttons button{
+  color: aliceblue;
+  margin-right: 5%;
+  padding: 1% 5%;
+  border: none;
+  border-radius: 3%;
+  
+}
+
+.buttons{
+  padding-left: 28%;
+}
+
+.siniy{
+  background-color: rgb(30, 28, 171);
+  border: none;
+}
+
+.oranguetangue{
+  background-color: rgb(255, 123, 0);
+}
+
+button:last-child{
+  color: black;
+}
+
+main{
+  margin-bottom: 8%;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom:0;
+  width: 100%;
+}
+
+.list{
+  display: flex;
+  justify-content: space-between;
+  font-size: 15px;
+  color: rgba(128, 128, 128, 0.669);
+}
+
+.txt{
+  font-size: 15px;
+  margin-left: 4%;
+  color: rgba(128, 128, 128, 0.669);
+}
+
+footer img{
+  padding-right: 3%;
 }
